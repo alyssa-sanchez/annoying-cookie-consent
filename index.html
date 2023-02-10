@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Annoying Cookie Consent</title>
+		<link rel="stylesheet" href="style.css" />
+		<link
+			rel="shortcut icon"
+			href="images/favicon.png"
+			type="image/x-icon"
+		/>
+	</head>
+	<body>
+		<main>
+			<section>
+				<h1 class="h1-title">
+					Learning to code? This is the most important thing you will
+					ever read!
+				</h1>
+
+				<p class="title p1">Master JavaScript in 3 hours</p>
+				<p class="title p2">Learn React in 10 minutes</p>
+				<p class="title p3">Be a NodeJS Dev by lunchtime</p>
+				<p class="title p4">Land a job with a 6 figure salary</p>
+
+				<h3 class="sub">
+					My subliminal learning technique worked for Mark Zuckerberg
+					and Albert Einstein, and it can work for you!
+				</h3>
+
+				<img
+					class="bugatti"
+					src="https://www.supercars.net/blog/wp-content/uploads/2014/11/bugatti_chiron_sport_3-scaled.jpeg"
+				/>
+
+				<p class="job">
+					Want a great job in tech? Want a six-figure salary? Then you
+					have come to the right place. I am going to tell you all you
+					need to know to get all of that and much more, without you
+					lifting a finger. You can learn passively. Just sit back,
+					close your eyes, and let the sound of my voice make the code
+					sink deep into your brain.
+				</p>
+			</section>
+		</main>
+		<!-- modal -->
+		<div class="modal" id="modal">
+			<div class="btnClose-container">
+				<button id="close-btn" class="close-btn" disabled>X</button>
+			</div>
+
+			<div class="allModal" id="allModal">
+				<h2>We ❤️ your data!</h2>
+				<p class="modal-text" id="modal-text">
+					We have a strict policy on tracking and spamming: we'll
+					definitely track you, and we'll definitely spam you. To use
+					this site, enter your name and email address and accept our
+					ridiculous terms and conditions.
+				</p>
+
+				<!-- form -->
+				<form id="form" class="form">
+					<input
+						type="text"
+						name="fullName"
+						placeholder="Enter your full name"
+						aria-label="Full Name"
+						required
+					/>
+					<input
+						type="email"
+						name="email"
+						placeholder="Enter your full email"
+						aria-label="Email Address"
+						required
+					/>
+
+					<div class="button" id="button-container">
+						<button id="accept" class="accept btn" type="submit">
+							Accept
+						</button>
+						<button id="decline" class="decline btn" type="button">
+							Decline
+						</button>
+					</div>
+				</form>
+			</div>
+		</div>
+
+		<script src="app.js"></script>
+	</body>
+</html>
